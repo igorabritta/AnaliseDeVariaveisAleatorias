@@ -34,7 +34,7 @@ Vamos expandir o raciocínio para 2 dimensões:
 2. Varrer o limiar da seguinte forma:
    - Varrer o limiar para cada dimensão;  
    - Varrer o limiar bidimensional, que será perpendicular a uma reta suporte que liga a média dos dois conjuntos (sinal e ruído);
-   - Repetir o item anterior *n vezes* porém estimando as médias dos conjuntos de dados utilizados na construção da reta suporte. Após isso avaliar a dispersão do melhor SP em relação ao SP calculado com a média verdadeira. Analisar o impacto do número eventos.
+   - Repetir o item anterior *n* vezes porém estimando as médias dos conjuntos de dados utilizados na construção da reta suporte. Após isso avaliar a dispersão do melhor SP em relação ao SP calculado com a média verdadeira. Analisar o impacto do número eventos.
    
 3. Escolher média e variância fixa e exibir o histograma bidimensional das variáveis geradas juntamente com o limiar escolhido.
 
