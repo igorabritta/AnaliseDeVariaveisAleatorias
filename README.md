@@ -29,7 +29,7 @@ A ideia desse repositorio é podermos passar uma primeira tarefa para treinar os
 
 Vamos expandir o raciocínio para 2 dimensões:
 
-1. Criar 2 conjuntos bidimensionais: para sinal f(x,y) e ruído g(x,y);
+1. Criar 2 conjuntos bidimensionais gaussianos: para sinal f(x,y) e ruído g(x,y);
 
 2. Varrer o limiar da seguinte forma:
    - Varrer o limiar para cada dimensão;  
