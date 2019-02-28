@@ -63,12 +63,20 @@ Agora para ter uma experiência uma pouco mais palpável do que podem ser variá
 Criar uma apresentação com:
 
 0 - Sumário
+
+
 1 - Introdução
+
+
 2 - Desenvolvimento
+
+
 3 - Resultados
+
+
 4 - Conclusão
 
-# Dica: A apresentação deve conter o número dos slides e as figuras devem conter legenda e identificação dos eixos.
+### Dica: A apresentação deve conter o número dos slides e as figuras devem conter legenda e identificação dos eixos.
 
 
 # Tópicos correlatos que podem ser úteis
