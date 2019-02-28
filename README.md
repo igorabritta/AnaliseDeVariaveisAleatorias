@@ -4,15 +4,15 @@ A ideia desse repositorio é podermos passar uma primeira tarefa para treinar os
 
 ## Módulo 1 
 
-1. Criar duas variáveis Gaussianas ([Distribuição Gaussiana](https://www.inf.ufsc.br/~andre.zibetti/probabilidade/normal.html)) com médias diferentes e com o mesmo número de eventos.
+1. Criar duas variáveis [Gaussianas](https://www.inf.ufsc.br/~andre.zibetti/probabilidade/normal.html), f(x) e g(x) com [médias](http://www.est.ufmg.br/~marcosop/est031/aulas/Capitulo_4_1.pdf) diferentes e com o mesmo número de eventos. 
 
-2. Definir qual será o Sinal (Signal) e qual será o Ruído de Fundo(Background). 
+2. Definir qual será o Sinal (Signal) e qual será o Ruído de Fundo(Background).
 
 3. Varrer todo range das duas variáveis e ver a porcentagem de eventos que você erra e acerta para cada limiar verificado 
 ([Curva ROC](http://crsouza.com/2009/07/13/analise-de-poder-discriminativo-atraves-de-curvas-roc/)).
 
 4. Modificar a média das distribuições e verificar o que ocorre com as porcentagens de acerto de sinal e background. 
-Depois, definir a média paras variáveis gaussianas, modificar a variância e ver o que ocorre com as porcentagens 
+Depois, definir a média para as variáveis gaussianas, modificar a variância e ver o que ocorre com as porcentagens 
 de acerto de sinal e background.
 
 5. Escolher uma média e uma variância qualquer e definir qual o limiar com melhor eficiência x melhor rejeição de background 
@@ -26,10 +26,11 @@ Dica: Cada evento de sinal deve ter um rótulo = 1 e cada evento de background d
 
 Vamos expandir o raciocínio para 2 dimensões:
 
-1. Criar 2 conjuntos bidimensionais: para sinal e ruído; 
+1. Criar 2 conjuntos bidimensionais: para sinal f(x,y) e ruído g(x,y); 
+
 2. Varrer o limiar da seguinte forma:
 
-      2.1. Varrer o limiar bidimensional, que será perpendicular a reta que ligar a média dos dois conjuntos (sinal e ruído);
+      2.1. Varrer o limiar bidimensional, que será perpendicular a reta que liga a média dos dois conjuntos (sinal e ruído);
       
       2.1. Varrer o limiar para cada dimensão;
       
@@ -37,6 +38,18 @@ Vamos expandir o raciocínio para 2 dimensões:
 4.  Verficar qual das abordagens é a melhor.
 
 ## Módulo 3
+
+Agora para ter uma experiência uma pouco mais palpável do que podem ser variáveis e o porque indentificar com mais eficiência e menor falso alarme é uma tarefa importante vamos usar o [Iris DataSet](https://archive.ics.uci.edu/ml/datasets/iris).
+
+1. Repetir o módulo 1 usando a variável 'Sepal Length', sendo a classe 'Iris Setosa' e 'Iris Versicoulour' como f(x) e g(x), respectivamente.
+
+2. Repetir o módulo 2 usando as variáveis 'Sepal Length' e Sepal width' como Primeira e Segunda dimensão, respectivamente, e as as mesmas classes do exércio 1.
+
+3. Executar esses exercícios mudando as outras variáveis e/ou as classes com o intuito de familiarizar-se com diferentes cenários.
+
+4. O que fazer para separar mais de 2 classes? Respodam sem implementar, somente com ideias do que poderia ser feito para resolver esse tipo de situação.
+
+## Módulo 4
 
 Criar uma apresentação mostrando os resultados e explicando os códigos.
 
