@@ -6,17 +6,16 @@ A ideia desse repositorio é podermos passar uma primeira tarefa para treinar os
 
 1. Criar duas variáveis [Gaussianas](https://www.inf.ufsc.br/~andre.zibetti/probabilidade/normal.html), f(x) e g(x) com [médias](http://www.est.ufmg.br/~marcosop/est031/aulas/Capitulo_4_1.pdf) diferentes e com o mesmo número de eventos. 
 
-2. Definir qual será o Sinal (Signal) e qual será o Ruído de Fundo(Background).
+2. Definir qual será o Sinal (*Signal*) e qual será o Ruído de Fundo(*Background*).
 
-3. Varrer todo range das duas variáveis e ver a porcentagem de eventos que você erra e acerta para cada limiar verificado 
+3. Varrer todo *range* das duas variáveis e ver a porcentagem de eventos que você erra e acerta para cada limiar verificado 
 ([Curva ROC](http://crsouza.com/2009/07/13/analise-de-poder-discriminativo-atraves-de-curvas-roc/)).
 
-4. Modificar a média das distribuições e verificar o que ocorre com as porcentagens de acerto de sinal e background. 
+4. Modificar a média das distribuições e verificar o que ocorre com as porcentagens de acerto de *signal* e *background*. 
 Depois, definir a média para as variáveis gaussianas, modificar a variância e ver o que ocorre com as porcentagens 
 de acerto de sinal e background.
 
-5. Escolher uma média e uma variância qualquer e definir qual o limiar com melhor eficiência x melhor rejeição de background 
-e fazer um plot3d ([plot3](https://www.mathworks.com/help/matlab/ref/plot3.html)), com os eixos plot3(var1,var2,rótulo_melhor_limiar) e plotar junto com  plot3(var1,var2,rótulo_truth)
+5. Escolher uma média e uma variância qualquer e definir qual o limiar com melhor eficiência de sinal x melhor rejeição de *background* e fazer um plot3d ([plot3](https://www.mathworks.com/help/matlab/ref/plot3.html)), com os eixos plot3(var1,var2,rótulo_melhor_limiar) e plotar junto com  plot3(var1,var2,rótulo_truth)
 
 6. Mostrar o histograma bidimensional ([hist3](https://ch.mathworks.com/help/stats/hist3.html?searchHighlight=hist3&s_tid=doc_srchtitle)) das variáveis.
 
