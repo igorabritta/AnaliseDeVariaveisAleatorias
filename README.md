@@ -23,7 +23,7 @@ A ideia desse repositorio é podermos passar uma primeira tarefa para treinar os
 
 9. Com a média e a variância utilizada no item anterior, executar o algoritmo *n* vezes e gerar uma distribuição com o melhor limiar de cada iteração. Variar o número de eventos de cada conjunto de dados e avaliar o impacto desta alteração.
 
-**Dica: Cada evento de *signal* deve ter um rótulo = 1 e cada evento de *background* deve ter um rótulo = 0 (rótulo_truth). Ao passar o limiar por todo range você verifica quem é maior do que o limiar e quem é menor, e então vê se acertou ou errou o evento olhando seu rótulo.
+##### Dica: Cada evento de *signal* deve ter um rótulo = 1 e cada evento de *background* deve ter um rótulo = 0 (rótulo_truth). Ao passar o limiar por todo range você verifica quem é maior do que o limiar e quem é menor, e então vê se acertou ou errou o evento olhando seu rótulo.
 
 ## Módulo 2
 
@@ -76,7 +76,7 @@ Criar uma apresentação com:
 
 4 - Conclusão
 
-### Dica: A apresentação deve conter o número dos slides e as figuras devem conter legenda e identificação dos eixos.
+##### Dica: A apresentação deve conter o número dos slides e as figuras devem conter legenda e identificação dos eixos.
 
 
 # Tópicos correlatos que podem ser úteis
