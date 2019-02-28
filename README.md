@@ -47,6 +47,14 @@ Criar uma apresentação mostrando os resultados e explicando os códigos.
 
 2. [Covariância](http://www.portalaction.com.br/probabilidades/42-covariancia-e-coeficiente-de-correlacao)
 
+3. [GitHub Tutorial](https://guides.github.com/activities/hello-world/)
+
+4. [Git Tutorial](https://guides.github.com/introduction/git-handbook/)
+
+5. [Matlab Tutorial](https://web.eecs.umich.edu/~aey/eecs451/matlab.pdf)
+
+6. [Matlab Machine Learning Project using Iris Dataset](https://github.com/akulagrawal/ML-with-Matlab)
+
 # Open Data sets
 
 Site com inúmeros Banco de Dados abertos e muito utilizados pela comunidade acadêmica:
