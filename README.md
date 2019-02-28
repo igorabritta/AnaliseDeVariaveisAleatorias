@@ -11,7 +11,7 @@ A ideia desse repositorio é podermos passar uma primeira tarefa para treinar os
 3. Varrer todo *range* das duas variáveis e ver a porcentagem de eventos que você erra e acerta para cada limiar verificado 
 ([Curva ROC](http://crsouza.com/2009/07/13/analise-de-poder-discriminativo-atraves-de-curvas-roc/)).
 
-4. Modificar média, variância e número de eventos das distribuições e verificar o que ocorre com as porcentagens de acerto de *signal* e *background*. Criar uma curva ROC e avaliar o efeito dessas variações.
+4. Modificar média, [variância](http://www.est.ufmg.br/~marcosop/est031/aulas/Capitulo_4_1.pdf) e número de eventos das distribuições e verificar o que ocorre com as porcentagens de acerto de *signal* e *background*. Criar uma curva ROC e avaliar o efeito dessas variações.
 
 5. Escolher uma média e uma variância qualquer e definir qual o limiar com melhor eficiência de sinal x melhor rejeição de *background* através do ([critério SP](https://drive.google.com/file/d/1VifytdIoQkYvuBUzW5Ybgk0QH36XDAP3/view (Página 98))).
 
