@@ -11,15 +11,19 @@ A ideia desse repositorio é podermos passar uma primeira tarefa para treinar os
 3. Varrer todo *range* das duas variáveis e ver a porcentagem de eventos que você erra e acerta para cada limiar verificado 
 ([Curva ROC](http://crsouza.com/2009/07/13/analise-de-poder-discriminativo-atraves-de-curvas-roc/)).
 
-4. Modificar a média das distribuições e verificar o que ocorre com as porcentagens de acerto de *signal* e *background*. 
-Depois, definir a média para as variáveis gaussianas, modificar a variância e ver o que ocorre com as porcentagens 
-de acerto de sinal e background.
+4. Modificar média, variância e número de eventos das distribuições e verificar o que ocorre com as porcentagens de acerto de *signal* e *background*. Criar uma curva ROC e avaliar o efeito dessas variações.
 
-5. Escolher uma média e uma variância qualquer e definir qual o limiar com melhor eficiência de sinal x melhor rejeição de *background* e fazer um plot3d ([plot3](https://www.mathworks.com/help/matlab/ref/plot3.html)), com os eixos plot3(var1,var2,rótulo_melhor_limiar) e plotar junto com  plot3(var1,var2,rótulo_truth)
+5. Escolher uma média e uma variância qualquer e definir qual o limiar com melhor eficiência de sinal x melhor rejeição de *background* através do ([critério SP](https://drive.google.com/file/d/1VifytdIoQkYvuBUzW5Ybgk0QH36XDAP3/view (Página 98))).
 
-6. Mostrar o histograma bidimensional ([hist3](https://ch.mathworks.com/help/stats/hist3.html?searchHighlight=hist3&s_tid=doc_srchtitle)) das variáveis.
+6. Exibir o histograma das variáveis geradas juntamente com o limiar escolhido.
 
-Dica: Cada evento de sinal deve ter um rótulo = 1 e cada evento de background deve ter um rótulo = 0 (rótulo_truth). Ao passar o limiar por todo range você verifica quem é maior do que o limiar e quem é menor, e então vê se acertou ou errou o evento olhando seu rótulo.
+7. Criar um plot3(x,y,z) onde x e y correspondem a variação da média em determinado intervalo([-m,m]) com passo arbitrário p e z corresponde ao melhor SP. 
+
+8. Repita o item anterior agora utilizando a variância(atentar para o intervalo de variação).
+
+9. Com a média e a variância utilizada no item anterior, executar o algoritmo *n* vezes e gerar uma distribuição com o melhor limiar de cada iteração. Variar o número de eventos de cada conjunto de dados e avaliar o impacto desta alteração.
+
+**Dica: Cada evento de *signal* deve ter um rótulo = 1 e cada evento de *background* deve ter um rótulo = 0 (rótulo_truth). Ao passar o limiar por todo range você verifica quem é maior do que o limiar e quem é menor, e então vê se acertou ou errou o evento olhando seu rótulo.
 
 ## Módulo 2
 
@@ -28,12 +32,19 @@ Vamos expandir o raciocínio para 2 dimensões:
 1. Criar 2 conjuntos bidimensionais: para sinal f(x,y) e ruído g(x,y);
 
 2. Varrer o limiar da seguinte forma:
-   - Varrer o limiar bidimensional, que será perpendicular a reta que liga a média dos dois conjuntos (sinal e ruído);
    - Varrer o limiar para cada dimensão;  
+   - Varrer o limiar bidimensional, que será perpendicular a uma reta suporte que liga a média dos dois conjuntos (sinal e ruído);
+   - Repetir o item anterior *n vezes* porém estimando as médias dos conjuntos de dados utilizados na construção da reta suporte. Após isso avaliar a dispersão do melhor SP em relação ao SP calculado com a média verdadeira. Analisar o impacto do número eventos.
    
-3.  Plotar 3 rocs (com seus respectivos melhores SP): 1 pro limiar bidimensional e 2, uma pro limiar de cada dimensão;
+3. Escolher média e variância fixa e exibir o histograma bidimensional das variáveis geradas juntamente com o limiar escolhido.
 
-4.  Verficar qual das abordagens é a melhor.
+4. Criar um plot3(x,y,z) onde x e y correspondem a variação da média em determinado intervalo([-m,m]) com passo arbitrário p e z corresponde ao melhor SP. 
+
+5. Repita o item anterior agora utilizando a variância(atentar para o intervalo de variação).
+
+6.  Plotar 3 rocs (com seus respectivos melhores SP): 1 pro limiar bidimensional e 2, uma pro limiar de cada dimensão;
+
+7.  Verficar qual das abordagens é a melhor.
 
 ## Módulo 3
 
