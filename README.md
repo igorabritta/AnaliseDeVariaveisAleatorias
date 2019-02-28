@@ -6,7 +6,7 @@ A ideia desse repositorio é podermos passar uma primeira tarefa para treinar os
 
 1. Criar duas variáveis Gaussianas ([Distribuição Gaussiana](https://www.inf.ufsc.br/~andre.zibetti/probabilidade/normal.html)) com médias diferentes e com o mesmo número de eventos.
 
-2. Definir qual será o SINAL(Signal) e qual será o RUÍDO DE FUNDO(Background). 
+2. Definir qual será o Sinal (Signal) e qual será o Ruído de Fundo(Background). 
 
 3. Varrer todo range das duas variáveis e ver a porcentagem de eventos que você erra e acerta para cada limiar verificado 
 ([Curva ROC](http://crsouza.com/2009/07/13/analise-de-poder-discriminativo-atraves-de-curvas-roc/)).
@@ -18,7 +18,7 @@ de acerto de sinal e background.
 5. Escolher uma média e uma variância qualquer e definir qual o limiar com melhor eficiência x melhor rejeição de background 
 e fazer um plot3d ([plot3](https://www.mathworks.com/help/matlab/ref/plot3.html)), com os eixos plot3(var1,var2,rótulo_melhor_limiar) e plotar junto com  plot3(var1,var2,rótulo_truth)
 
-6. Mostrar o histograma bidimensional (hist3) das variáveis.
+6. Mostrar o histograma bidimensional ([hist3](https://ch.mathworks.com/help/stats/hist3.html?searchHighlight=hist3&s_tid=doc_srchtitle)) das variáveis.
 
 Dica: Cada evento de sinal deve ter um rótulo = 1 e cada evento de background deve ter um rótulo = 0 (rótulo_truth). Ao passar o limiar por todo range você verifica quem é maior do que o limiar e quem é menor, e então vê se acertou ou errou o evento olhando seu rótulo.
 
@@ -39,3 +39,17 @@ Vamos expandir o raciocínio para 2 dimensões:
 ## Módulo 3
 
 Criar uma apresentação mostrando os resultados e explicando os códigos.
+
+
+# Tópicos correlatos que podem ser úteis
+
+1. [Correlação de Pearson](https://www.inf.ufsc.br/~vera.carmo/Correlacao/Correlacao_Pearson_Spearman_Kendall.pdf)
+
+2. [Covariância](http://www.portalaction.com.br/probabilidades/42-covariancia-e-coeficiente-de-correlacao)
+
+# Open Data sets
+
+Site com inúmeros Banco de Dados abertos e muito utilizados pela comunidade acadêmica:
+https://archive.ics.uci.edu/ml/datasets.html
+
+[Iris DataSet](https://archive.ics.uci.edu/ml/datasets/iris): Este é talvez o banco de dados mais conhecido encontrado na literatura sobre reconhecimento de padrões. O conjunto de dados contém 3 classes de 50 instâncias cada, onde cada classe se refere a um tipo de planta da íris. Uma classe é linearmente separável das outras duas; já as outras duas não são linearmente separáveis uma da outra.
