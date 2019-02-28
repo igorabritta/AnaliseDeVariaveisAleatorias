@@ -64,9 +64,11 @@ Criar uma apresentação mostrando os resultados e explicando os códigos.
 
 4. [Git Tutorial](https://guides.github.com/introduction/git-handbook/)
 
-5. [Matlab Tutorial](https://web.eecs.umich.edu/~aey/eecs451/matlab.pdf)
+5. [Sintaxe básica para escrever o ReadMe](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
 
-6. [Matlab Machine Learning Project using Iris Dataset](https://github.com/akulagrawal/ML-with-Matlab)
+6. [Matlab Tutorial](https://web.eecs.umich.edu/~aey/eecs451/matlab.pdf)
+
+7. [Matlab Machine Learning Project using Iris Dataset](https://github.com/akulagrawal/ML-with-Matlab)
 
 # Open Data sets
 
