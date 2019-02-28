@@ -25,15 +25,14 @@ Dica: Cada evento de sinal deve ter um rótulo = 1 e cada evento de background d
 
 Vamos expandir o raciocínio para 2 dimensões:
 
-1. Criar 2 conjuntos bidimensionais: para sinal f(x,y) e ruído g(x,y); 
+1. Criar 2 conjuntos bidimensionais: para sinal f(x,y) e ruído g(x,y);
 
 2. Varrer o limiar da seguinte forma:
+   - Varrer o limiar bidimensional, que será perpendicular a reta que liga a média dos dois conjuntos (sinal e ruído);
+   - Varrer o limiar para cada dimensão;  
+   
+3.  Plotar 3 rocs (com seus respectivos melhores SP): 1 pro limiar bidimensional e 2, uma pro limiar de cada dimensão;
 
-      2.1. Varrer o limiar bidimensional, que será perpendicular a reta que liga a média dos dois conjuntos (sinal e ruído);
-      
-      2.1. Varrer o limiar para cada dimensão;
-      
-3.  Plotar 3 rocs (com seus respectivos melhores SP): 1 pro limiar bidimensional e 2, uma pro limiar de cada dimensão
 4.  Verficar qual das abordagens é a melhor.
 
 ## Módulo 3
