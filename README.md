@@ -1,4 +1,4 @@
-# MatlabCourse
+# Curso para iniciar o uso de Matlab para análise de variáveis aleatórias
 
 A ideia desse repositorio é podermos passar uma primeira tarefa para treinar os novos bolsistas e ao mesmo tempo podermos receber feedback e melhorar do ponto de vista acadêmico.
 
@@ -70,7 +70,7 @@ Criar uma apresentação mostrando os resultados e explicando os códigos.
 
 # Open Data sets
 
-Site com inúmeros Banco de Dados abertos e muito utilizados pela comunidade acadêmica:
+Site com inúmeros banco de bados abertos e muito utilizados pela comunidade acadêmica:
 https://archive.ics.uci.edu/ml/datasets.html
 
 [Iris DataSet](https://archive.ics.uci.edu/ml/datasets/iris): Este é talvez o banco de dados mais conhecido encontrado na literatura sobre reconhecimento de padrões. O conjunto de dados contém 3 classes de 50 instâncias cada, onde cada classe se refere a um tipo de planta da íris. Uma classe é linearmente separável das outras duas; já as outras duas não são linearmente separáveis uma da outra.
