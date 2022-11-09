@@ -1,4 +1,4 @@
-# Curso para iniciar o uso de Matlab para análise de variáveis aleatórias
+# Curso para iniciar o uso de Python para análise de variáveis aleatórias
 
 A ideia desse repositorio é podermos passar uma primeira tarefa para treinar os novos bolsistas e ao mesmo tempo podermos receber feedback e melhorar do ponto de vista acadêmico.
 
