@@ -2,6 +2,9 @@
 
 A ideia desse repositorio é podermos passar uma primeira tarefa para treinar os novos bolsistas e ao mesmo tempo podermos receber feedback e melhorar do ponto de vista acadêmico.
 
+## Dica - Aconselhamos o uso do Jupyter Notebook para efetuar a tarefa.
+Para aprender mais sobre como instalar o Jupyter Notebook e primeiros passos você pode acessar esse [tutorial](https://medium.com/@pedrofullstack/introdu%C3%A7%C3%A3o-ao-jupyter-notebook-para-python-b2cf79cea31d).
+
 ## Módulo 1 
 
 1. Criar duas variáveis [Gaussianas](https://www.inf.ufsc.br/~andre.zibetti/probabilidade/normal.html), f(x) e g(x) com [médias](http://www.est.ufmg.br/~marcosop/est031/aulas/Capitulo_4_1.pdf) diferentes e com o mesmo número de eventos. 
